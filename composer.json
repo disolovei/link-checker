@@ -1,0 +1,14 @@
+{
+    "require": {
+        "ext-curl" : "*",
+		"ext-json" : "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "LinkChecker\\": "app/"
+        },
+        "classmap": [
+            "app/"
+        ]
+    }
+}
